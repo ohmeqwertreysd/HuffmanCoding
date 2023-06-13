@@ -1,16 +1,8 @@
 #include "HuffmanEncoder.h"
 #include "HuffmanDecoder.h"
-#include <iostream>
-#include <unordered_map>
-#include <list>
-#include <stack>
-#include <queue>
-#include <memory>
-#include <iostream>
 
 
-
-int main()
+int main(int argc, char* argv[])
 {
 	{
 		HuffmanEncoder encoder;
